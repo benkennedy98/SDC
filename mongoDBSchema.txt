@@ -1,0 +1,28 @@
+{
+    'product_id': 'number',
+    'questions': [
+        {
+            'question_id': 'number',
+            'question_body': 'string',
+            'question_date': 'date',
+            'username': 'string',
+            'helpfull': 'number',
+            'reported': 'bool',
+            'answers': {
+                'key': {
+                    'answer_id': 'number',
+                    'body': 'sting',
+                    'date': 'timestamp',
+                    'name': 'sting',
+                    'helpufull': 'number',
+                    'photos': [
+                        {
+                            'URL': 'text'
+                        }
+                    ]
+                }
+            }
+
+        }
+    ]
+}
