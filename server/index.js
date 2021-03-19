@@ -1,12 +1,15 @@
 const express = require('express')
+const db = require('../database')
 const app = express()
 const port = 3000
 const server = 'http://localhost:'
 
-app.get('/questions', (req, res) => {
-    console.log(req.query)
+
+
+app.get('/qa/questions', (req, res) => {
+    res.send('works')
 })
 
 app.listen(port, () => {
-  console.log(`Example app listening at ${server}${port}`)
+  console.log(`SDC listening at ${server}${port}`)
 })
